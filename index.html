@@ -33,19 +33,31 @@
     }
     .logo-header {
       background-color: #00c192;
-      padding: 10px;
-      text-align: right;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
     }
     .logo-box {
-      display: inline-block;
       background-color: white;
-      padding: 10px;
+      padding: 6px;
       border-radius: 8px;
-      margin-right: 20px;
+      margin-left: auto;
     }
     .logo-box img {
-      max-height: 80px;
+      height: 55px;
       vertical-align: middle;
+    }
+    .logo-title {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
     }
     header {
       background-color: #00c192;
@@ -120,10 +132,10 @@
     <div class="logo-box">
       <img src="logo.png" alt="شعار أمان للنقل الآمن">
     </div>
+    <div class="logo-title">أمان للنقل</div>
   </div>
 
   <header>
-    <h1>أمان للنقل</h1>
     <p>رحلتك الآمنة تبدأ من هنا</p>
   </header>
 
